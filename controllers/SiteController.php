@@ -62,6 +62,12 @@ class SiteController extends Controller
         return $this->render('index');
     }
 
+    public function actionTest()
+    {
+        echo "Hello world";
+    }
+
+
     /**
      * Login action.
      *
