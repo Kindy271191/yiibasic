@@ -70,7 +70,9 @@ class SiteController extends Controller
     public function actionSecond()
     {
         echo "Second Test";
+        die();
     }
+
 
     /**
      * Login action.
