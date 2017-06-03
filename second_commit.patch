@@ -1,0 +1,20 @@
+Index: controllers/SiteController.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- controllers/SiteController.php	(revision 5a780c2edfbd366a9a72b4a911d035aac2b2c081)
++++ controllers/SiteController.php	(revision )
+@@ -62,6 +62,12 @@
+         return $this->render('index');
+     }
+ 
++    public function actionTest()
++    {
++        echo "Hello world";
++    }
++
++
+     /**
+      * Login action.
+      *
